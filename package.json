@@ -1,0 +1,24 @@
+{
+  "name": "03-basics-nodejs",
+  "version": "0.0.1",
+  "description": "This is a simply multiply table app with file text",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "base3": "node app --base=3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emmanueltamburini/basics-nodejs.git"
+  },
+  "author": "Emmanuel Tamburini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emmanueltamburini/basics-nodejs/issues"
+  },
+  "homepage": "https://github.com/emmanueltamburini/basics-nodejs#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^17.6.2"
+  }
+}
