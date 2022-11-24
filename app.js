@@ -1,12 +1,9 @@
+const argv = require('./config/yargs');
 const { buildField } = require('./helpers/multiply');
-const argv = require('yargs').argv;
-console.clear();
+const colors = require('colors');
 
-const [,, baseArg = '--base=5'] = process.argv
-const [, base = 5] = baseArg.split('=');
+const { base, list, until } = argv;
 
-console.log(base);
-
-buildField(base)
-    .then(fieldName => console.log(`${fieldName} has been created`))
+buildField(base, list, until)
+    .then(fieldName => console.log(`${fieldName} has been created`.green))
     .catch(error => console.log(error));
