@@ -2,7 +2,7 @@
 
 Multiply table application
 
-```
+```text
 options:
       --help     Show help                                        [booleano]
       --version  Show version                            [booleano]
